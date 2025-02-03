@@ -20,13 +20,6 @@
             border-radius: 10px;
             box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
         }
-        .button{
-            transform: scale(1.1);
-            transition: color 0.3s, transform 0.3s;
-        }
-    
-        
-
     </style>
 </head>
 <body>
@@ -40,7 +33,7 @@
             <div class="mb-3">
                 <label for="password" class="form-label">Password</label>
                 <input type="password" class="form-control" name="password" required>
-            </div class="button">
+            </div>
             <button type="submit" class="btn btn-primary w-100">Login</button>
         </form>
     </div>
